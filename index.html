@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>My resume</title>
+
+    <!-- Link fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Link CSS styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<!--
+    <h1></h1>                       Header1, etc.
+    <div></div>                     container
+    <ol></ol>                       Ordered List (1. 2. 3.)
+    <ul></ul>                       Unordered List
+    <li></li>                       List Item (use between <ol> & </ol>)
+    <a ref="www.google.com"></a>            web-link
+    <aside></aside>                         SIDEbar
+    <img src="path" alt="descrip"></img>    IMaGe
+
+-->
+
+<body>
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <img src="img/photo-cartooney_Viacheslav.png" alt="Photo of Viacheslav (cartoon style)." width="370">
+            
+            <!-- Sidebar text -->
+            <div class="sidebar-text">
+                <!-- Contacts -->
+                <div>
+                    <h3 class="header">Contacts</h3>
+                    <p>
+                        <span class="contacts-type">C: </span>
+                        <a class="link" href="tel:+380500399646">+38 0500 399 646</a>
+                    </p>
+                    <p>
+                        <span class="contacts-type">E: </span>
+                        <a class="link" href="mailto:vyacheslav.golubnichiy@gmail.com" target="_blank">vyacheslav.golubnichiy@gmail.com</a>
+                    </p>
+                </div>
+
+                <!-- Tech Skills -->
+                <div>
+                    <h3 class="header">Tech Skills</h3>
+                    <ul class="unordered-list">
+                        <li>C++</li>
+                        <li>Python3</li>
+                        <li>Git</li>
+                        <li>SQL</li>
+                        <li>Blender</li>
+                        <li>Unreal Engine 5</li>
+                        <li>OpenCV</li>
+                        <li>Neural Networks</li>
+                    </ul>
+                </div>
+
+                <!-- Soft Skills -->
+                <div>
+                    <h3 class="header">Soft Skills</h3>
+                    <ul class="unordered-list">
+                        <li>Agile</li>
+                        <li>Scrum</li>
+                        <li>Test-Driven Development</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </aside>
+
+        <!-- Main content -->
+        <div class="main-content">
+            <!-- Intro -->
+            <div class="intro">
+                <h2 class="position">Game Developer</h2>
+                <h1 class="name">Viacheslav Holubnychyi</h1>
+                <p class="text-basic">
+                    Computer programs engineer with experience in C++, and Python and an interest in new technologies. I have personal projects in game development. I am experienced in multithreading, Big O, OpenGL, Blender, and Unreal Engine 5. I seek to improve my knowledge and skills in artificial intelligence, computer graphics, and design.
+                </p>
+
+            </div>
+        
+            <!-- Projects -->
+            <div>
+                <h3 class="header">Projects</h3>
+                <ol class="ordered-list">
+                    <li>
+                        <a class="link" href="https://www.behance.net/slavaGo" target="_blank">https://www.behance.net/slavaGo</a>
+                        <span class="text-basic"> ......................................................... [ Blender ]</span>
+                    </li>
+                    <li>
+                        <a class="link" href="https://github.com/SlavaGolubnichiy/Rise" target="_blank">https://github.com/SlavaGolubnichiy/Rise</a>
+                        <span class="text-basic"> ....................................... [ Python ]</span>
+                    </li>
+                    <li>
+                        <a class="link" href="https://github.com/SlavaGolubnichiy/3d_game_engine" target="_blank">https://github.com/SlavaGolubnichiy/3d_game_engine</a>
+                        <span class="text-basic"> ........ [ C++ ]</span>
+                    </li>
+                </ol>
+            </div>
+        
+            <!-- Work Experience -->
+            <div class="experience-container">
+                <h3 class="header">Work Experience</h3>
+                <!-- Work 3 -->
+                <div>
+                    <h4 class="job-title">Associate Embedded Developer | <span class="job-company">GlobalLogic</span></h4>
+                    <p class="time-period">December 2021 - June 2022 | Ukraine</p>
+                    <ul class="unordered-list">
+                        <li>I have developed a commercial application for Android using Java, worked with AOSP car_x86_64 build, and built an application that gathers system information. I have a teamwork experience in Git, Android Studio, and documentation in English.</li>
+                    </ul>
+                </div>
+                <!-- Work 2 -->
+                <div>
+                    <h4 class="job-title">Game Designer | <span class="job-company">Own project</span></h4>
+                    <p class="time-period">June 2020 - September 2020 | Ukraine</p>
+                    <ul class="unordered-list">
+                        <li>I designed, developed and released a platformer computer game named Rise. I created design, planning and functional documentation, and a <a class="link" target="_blank" href="http://b500390m.beget.tech/games/rise/">website</a> to promote a released product. Application is Open-Source and can be found on <a class="link" target="_blank" href="https://github.com/SlavaGolubnichiy/Rise">GitHub</a>.</li>
+                    </ul>
+                </div>
+                <!-- Work 1 -->
+                <div>
+                    <h4 class="job-title">Game Engine Developer | <span class="job-company">Own project</span></h4>
+                    <p class="time-period">February 2019 - September 2021 | Ukraine</p>
+                    <ul class="unordered-list">
+                        <li>I implemented a program to view and work with basic 3D models. I wrote it in C++ using OpenGL, documented the code and promoted it on <a class="link" target="_blank" href="https://github.com/SlavaGolubnichiy/3d_game_engine">GitHub</a>.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div>
+                <h3 class="header">Education</h3>
+                <!-- Education 2 -->
+                <div>
+                    <h4 class="edu-school">Kharkiv National University of Radioelectronics</h4>
+                    <h4 class="edu-degree">Masters degree in Computer Intelligent Systems</h4>
+                    <p class="time-period">October 2022 - January 2024 | Ukraine</p>
+                </div>
+                <!-- Education 1 -->
+                <div>
+                    <h4 class="edu-school">Kharkiv National University of Radioelectronics</h4>
+                    <h4 class="edu-degree">Bachelors degree in Computer Engineering</h4>
+                    <p class="time-period">September 2018 - June 2022 | Ukraine</p>
+                </div>
+            </div>
+        </div>
+        
+        
+
+    </div>
+
+</body>
+</html>

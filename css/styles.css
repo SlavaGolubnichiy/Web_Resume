@@ -1,0 +1,181 @@
+/*
+
+margin = outer gap
+padding = inner gap
+
+*/
+
+body
+{
+    background: #F6F6FA;
+    padding: 40px 40px 40px 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper
+{
+    background: #FFFFFF;
+    padding: 40px 40px 40px 40px;
+    display: flex;
+    flex-direction: row;    /* horizontal orientation of blocks */
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sidebar
+{
+    background: #E0EBFE;
+    box-sizing: border-box;
+    margin: 0px 80px 0px 0px;
+    width: 370px;
+}
+
+.sidebar-text
+{
+    box-sizing: border-box;
+    margin: 0px 40px 40px 40px;
+}
+
+.header
+{
+    color: #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.contacts-type
+{
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 12px;
+    margin-top: 0px;
+    margin-right: 8px;
+}
+
+.link
+{
+    color: #2979FF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12px;
+    margin-top: 0px;
+    text-decoration-line: underline;
+}
+
+ul, ol
+{
+    margin-top: 8px;
+}
+
+.unordered-list
+{
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 24px;
+}
+
+.ordered-list
+{
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left: 16px;
+}
+
+.main-content
+{
+    margin-right: 40px;
+    box-sizing: border-box;
+}
+
+.intro
+{
+    margin-bottom: 40px;
+}
+
+.position
+{
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.name
+{
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.text-basic
+{   
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+.experience-container
+{
+    margin-bottom: 32px;
+}
+
+.job-title
+{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+.job-company
+{
+    color: #6D9BF5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+.time-period
+{
+    color: #A8A8A8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 12px;
+}
+
+.edu-school
+{
+    color: #6D9BF5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+.edu-degree
+{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
